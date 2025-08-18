@@ -10,7 +10,7 @@ from dashboard import generate_dashboard
 
 def test_week1_lists_matrices():
     """Week 1: Lists & Matrices - Dashboard with 2D list"""
-    print("🧪 Testing Week 1: Lists & Matrices")
+    print(" Testing Week 1: Lists & Matrices")
     print("=" * 50)
     
     # Create sample tickets for testing
@@ -28,7 +28,7 @@ def test_week1_lists_matrices():
 
 def test_week2_recursion():
     """Week 2: Recursion - Dependency checking"""
-    print("🧪 Testing Week 2: Recursion")
+    print(" Testing Week 2: Recursion")
     print("=" * 50)
     
     # Create tickets with dependencies
@@ -58,7 +58,7 @@ def test_week2_recursion():
 
 def test_week3_functions_loops():
     """Week 3: Functions & Loops - Menu system"""
-    print("🧪 Testing Week 3: Functions & Loops")
+    print(" Testing Week 3: Functions & Loops")
     print("=" * 50)
     
     # Test input validation functions
@@ -70,7 +70,7 @@ def test_week3_functions_loops():
 
 def test_week4_linked_lists():
     """Week 4: Linked Lists - Ticket history"""
-    print("🧪 Testing Week 4: Linked Lists")
+    print(" Testing Week 4: Linked Lists")
     print("=" * 50)
     
     # Create linked list for history
@@ -96,7 +96,7 @@ def test_week4_linked_lists():
 
 def test_week5_stacks_queues():
     """Week 5: Stacks & Queues - Undo, Normal Queue, Priority Queue"""
-    print("🧪 Testing Week 5: Stacks & Queues")
+    print(" Testing Week 5: Stacks & Queues")
     print("=" * 50)
     
     # Test Stack (Undo feature)
@@ -137,7 +137,7 @@ def test_week5_stacks_queues():
 
 def run_all_tests():
     """Run all weekly tests"""
-    print("🚀 HELP DESK TICKET SYSTEM - WEEKLY REQUIREMENTS TEST")
+    print(" HELP DESK TICKET SYSTEM - WEEKLY REQUIREMENTS TEST")
     print("=" * 70)
     
     test_week1_lists_matrices()
@@ -146,7 +146,7 @@ def run_all_tests():
     test_week4_linked_lists()
     test_week5_stacks_queues()
     
-    print("✅ All weekly requirements tests completed!")
+    print(" All weekly requirements tests completed!")
     print("\nTo run the interactive system, use: python main.py")
 
 if __name__ == "__main__":

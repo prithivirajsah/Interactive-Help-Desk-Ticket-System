@@ -1,36 +1,36 @@
-# 🎫 Interactive Help Desk Ticket System
+# Interactive Help Desk Ticket System
 
 A comprehensive command-line application that demonstrates various data structures and algorithms through a practical help desk ticket management system.
 
-## 📋 Weekly Requirements Implementation
+##  Weekly Requirements Implementation
 
-### 1: Lists & Matrices ✅
+### 1: Lists & Matrices 
 - **Dashboard Analytics**: 2D list implementation showing ticket statistics
 - **Features**: Open vs. closed counts, priority breakdowns, agent workload
 - **File**: `dashboard.py` - Generates comprehensive ticket analytics
 
-### 2: Recursion ✅
+### 2: Recursion 
 - **Dependency Checking**: Recursive function to verify ticket dependencies
 - **Features**: Ensures parent tickets are resolved before closing child tickets
 - **File**: `main.py` - `check_dependency()` function
 
-### 3: Functions & Loops ✅
+### 3: Functions & Loops 
 - **Main Application**: Interactive menu system with input handling loops
 - **Features**: User input validation, error handling, continuous operation
 - **File**: `main.py` - Main application loop and helper functions
 
-### 4: Linked Lists ✅
+### 4: Linked Lists 
 - **Ticket History**: Chronological storage of all tickets in linked list
 - **Features**: Complete audit trail, ticket lookup by ID
 - **File**: `data_structures.py` - `LinkedList` class
 
-### 5: Stacks & Queues ✅
+### 5: Stacks & Queues 
 - **Queue**: Standard-priority tickets (FIFO processing)
 - **Priority Queue**: High-priority tickets (processed first)
 - **Stack**: Undo feature to revert last actions
 - **File**: `data_structures.py` - `Queue`, `PriorityQueue`, `Stack` classes
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.6 or higher
@@ -48,7 +48,7 @@ A comprehensive command-line application that demonstrates various data structur
    python test_system.py
    ```
 
-## 🎯 System Features
+##  System Features
 
 ### Core Functionality
 - ✅ Create tickets with descriptions and priorities
@@ -73,7 +73,7 @@ A comprehensive command-line application that demonstrates various data structur
 - **Real-time Statistics**: Live dashboard updates
 - **Audit Trail**: Complete history of all system actions
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 The analytics dashboard provides:
 - Total ticket counts and resolution rates
@@ -82,7 +82,7 @@ The analytics dashboard provides:
 - Recent activity tracking
 - Visual indicators for ticket status and priority
 
-## 🔄 Undo System
+## Undo System
 
 The undo feature supports:
 - **Create Actions**: Remove created tickets
@@ -90,7 +90,7 @@ The undo feature supports:
 - **Agent Assignment**: Revert agent changes
 - **Confirmation**: User confirmation before undoing
 
-## 🧪 Testing
+## Testing
 
 Run the test suite to verify all weekly requirements:
 ```bash
@@ -104,7 +104,7 @@ This will test:
 - Linked list operations
 - Stack and queue operations
 
-## 📁 File Structure
+## File Structure
 
 ```
 helpdesk_system/
@@ -116,7 +116,7 @@ helpdesk_system/
 └── README.md           # This documentation
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Creating a Ticket
 1. Choose option 1 from the main menu
@@ -135,7 +135,7 @@ helpdesk_system/
 - Child tickets cannot be closed until parent is resolved
 - Recursive dependency checking ensures proper order
 
-## 🎓 Learning Objectives
+## Learning Objectives
 
 This system demonstrates:
 - **Data Structure Implementation**: Custom implementations of linked lists, stacks, and queues
@@ -143,7 +143,7 @@ This system demonstrates:
 - **Software Engineering**: Input validation, error handling, and user experience
 - **System Design**: Modular architecture with clear separation of concerns
 
-## 🔧 Customization
+## Customization
 
 The system is designed to be easily extensible:
 - Add new ticket fields in `ticket.py`
@@ -151,14 +151,14 @@ The system is designed to be easily extensible:
 - Enhance dashboard analytics in `dashboard.py`
 - Add new menu options in `main.py`
 
-## 📝 Notes
+## Notes
 
 - All data is stored in memory (no persistence)
 - System resets when restarted
 - Designed for educational demonstration of data structures
 - Production use would require database integration
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project demonstrating weekly programming concepts. Feel free to:
 - Add new features
@@ -167,5 +167,3 @@ This is an educational project demonstrating weekly programming concepts. Feel f
 - Add more comprehensive testing
 
 ---
-
-**Happy Coding! 🚀**
